@@ -1,0 +1,49 @@
+<!DOCTYPE html>  
+<html lang = "en">  
+<head>
+<link rel="stylesheet" type="text/css" href="CSS/styles.css">
+<title> JavaScript Calculator </title>
+<!-- TASK:
+>> Create a basic calculator using JavaScript.
+>> can do: +, -, x, / -->
+</head> 
+
+<body>  
+<h1> Calculator with the use of JavaScript </h1>  
+<div class= "formstyle">  
+<form name = "form1">  
+
+<input id = "calc" type ="text" name = "answer"> 
+<br> 
+
+<input type = "button" value = "Clear All" onclick = "form1.answer.value = ' ' " id= "clear" >
+<br> 
+
+<input type = "button" value = "1" onclick = "form1.answer.value += '1' " class="num">  
+<input type = "button" value = "2" onclick = "form1.answer.value += '2' " class="num">  
+<input type = "button" value = "3" onclick = "form1.answer.value += '3' " class="num">  
+<input type = "button" value = "+" onclick = "form1.answer.value += '+' " class="func">  
+<br> 
+
+<input type = "button" value = "4" onclick = "form1.answer.value += '4' " class="num">  
+<input type = "button" value = "5" onclick = "form1.answer.value += '5' " class="num">  
+<input type = "button" value = "6" onclick = "form1.answer.value += '6' " class="num">  
+<input type = "button" value = "-" onclick = "form1.answer.value += '-' " class="func">  
+<br>
+
+<input type = "button" value = "7" onclick = "form1.answer.value += '7' " class="num">
+<input type = "button" value = "8" onclick = "form1.answer.value += '8' " class="num">  
+<input type = "button" value = "9" onclick = "form1.answer.value += '9' " class="num">  
+<input type = "button" value = "*" onclick = "form1.answer.value += '*' " class="func">  
+<br>
+   
+<input type = "button" value = "." onclick = "form1.answer.value += '.' " class="num" >  
+<input type = "button" value = "0" onclick = "form1.answer.value += '0' " class="num">
+<input type = "button" value = "=" onclick = "form1.answer.value = eval(form1.answer.value) " class="equa">   
+<input type = "button" value = "/" onclick = "form1.answer.value += '/' " class="func">
+<br>
+  
+</form>  
+</div>  
+</body>  
+</html>  
